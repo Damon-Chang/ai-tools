@@ -63,7 +63,7 @@ file.txt
 `git remote add origin https://github.com/Damon-Chang/Embodied-AI.git` # 添加远程仓库地址
 `git push -u origin main` # 上传到远程仓库
 
-> [!NOTE]这里出现了报错：
+> [!NOTE] 这里出现了报错：
 > `错误：源引用规格 main 没有匹配`
 > `错误：无法推送一些引用到 'https://github.com/Damon-Chang/Embodied-AI.git'` 
 > 排查发现是本地分支（master）和远程分支（main）不一致，于是先更改分支名称：
